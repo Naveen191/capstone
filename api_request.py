@@ -7,7 +7,7 @@ def free_news_api_request():
     querystring = {"q":"Elon Musk","lang":"en"}
     headers = {
         'x-rapidapi-host': "free-news.p.rapidapi.com",
-        'x-rapidapi-key': "3cd7e29563mshb99aad2cbc12deap1c2b67jsne491a79b4854"
+        'x-rapidapi-key': 
         }
     response = requests.request("GET", url, headers=headers, params=querystring)
     json_response = response.json()
